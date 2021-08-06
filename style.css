@@ -1,0 +1,47 @@
+/*.buttons {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin: 0 10px 30px 10px;*/
+/*}*/
+
+/*.box {*/
+/*    text-align: center;*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    background-color: black;*/
+/*}*/
+
+/*.border {*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.color {*/
+/*    background-color: #a9e538;*/
+/*}*/
+
+/*.none {*/
+/*    display: none;*/
+/*}*/
+body{
+    background: #C0C0C0;
+
+}
+.all-balloons{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+}
+.change-balloons{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.refresh{
+    height: 50px;
+    width: 50px;
+}
+.del-all{
+    display: none;
+}
